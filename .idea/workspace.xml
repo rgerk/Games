@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a861a67f-a718-4996-a030-ddb734648e0d" name="Default Changelist" comment="" />
+    <list default="true" id="a861a67f-a718-4996-a030-ddb734648e0d" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adivinhacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jogos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advinhacao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/forca.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,23 +25,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YmYkTPcHO5dJPWTU5WFwI5i3Gf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PCGAMER\PycharmProjects\jogos" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="advinhacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.jogos">
+    <configuration name="adivinhacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jogos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,7 +59,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advinhacao.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\PCGAMER\PycharmProjects\jogos\adivinhacao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="forca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jogos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jogos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jogos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jogos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.advinhacao" />
+        <item itemvalue="Python.jogos" />
+        <item itemvalue="Python.adivinhacao" />
+        <item itemvalue="Python.forca" />
       </list>
     </recent_temporary>
   </component>
@@ -71,33 +129,69 @@
       <option name="presentableId" value="Default" />
       <updated>1583549380007</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1584022948345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584022948345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2914" y="179" key="#Inspections" timestamp="1583617967306">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
     <state x="2914" y="179" key="#Inspections/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583617967306" />
-    <state width="1362" height="229" key="GridCell.Tab.0.bottom" timestamp="1583983221459">
+    <state x="3022" y="122" key="CommitChangelistDialog2" timestamp="1584023020872">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
-    <state width="1362" height="229" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583983221459" />
-    <state width="1362" height="229" key="GridCell.Tab.0.center" timestamp="1583983221459">
+    <state x="3022" y="122" key="CommitChangelistDialog2/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584023020872" />
+    <state x="2350" y="128" width="2035" height="800" key="DiffContextDialog" timestamp="1584023134978">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
-    <state width="1362" height="229" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583983221459" />
-    <state width="1362" height="229" key="GridCell.Tab.0.left" timestamp="1583983221458">
+    <state x="2350" y="128" width="2035" height="800" key="DiffContextDialog/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584023134978" />
+    <state x="3189" y="427" key="Github.CreateGistDialog" timestamp="1584024683490">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
-    <state width="1362" height="229" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583983221458" />
-    <state width="1362" height="229" key="GridCell.Tab.0.right" timestamp="1583983221459">
+    <state x="3189" y="427" key="Github.CreateGistDialog/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584024683490" />
+    <state width="2197" height="229" key="GridCell.Tab.0.bottom" timestamp="1584026384572">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
-    <state width="1362" height="229" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583983221459" />
-    <state x="2801" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583875287884">
+    <state width="2197" height="229" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026384572" />
+    <state width="2197" height="229" key="GridCell.Tab.0.center" timestamp="1584026384572">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2197" height="229" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026384572" />
+    <state width="2197" height="229" key="GridCell.Tab.0.left" timestamp="1584026384572">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2197" height="229" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026384572" />
+    <state width="2197" height="229" key="GridCell.Tab.0.right" timestamp="1584026384572">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2197" height="229" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026384572" />
+    <state x="2641" y="170" key="SettingsEditor" timestamp="1584022111895">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state x="2641" y="170" key="SettingsEditor/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584022111895" />
+    <state x="2959" y="261" key="Vcs.Push.Dialog.v2" timestamp="1584026830026">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state x="2959" y="261" key="Vcs.Push.Dialog.v2/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026830026" />
+    <state x="2801" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584021999351">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583549410201" />
-    <state x="2801" y="344" key="com.intellij.ide.util.TipDialog/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1583875287884" />
+    <state x="2801" y="344" key="com.intellij.ide.util.TipDialog/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584021999351" />
+    <state x="3114" y="319" key="git4idea.merge.GitPullDialog" timestamp="1584026741350">
+      <screen x="1920" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3114" y="319" key="git4idea.merge.GitPullDialog/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1584026741350" />
   </component>
 </project>
