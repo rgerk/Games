@@ -1,5 +1,6 @@
 import random
 
+
 def jogar():
     print("\n*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
@@ -14,9 +15,9 @@ def jogar():
 
     nivel = int(input("Escolha o nível: "))
 
-    if(nivel == 1):
+    if (nivel == 1):
         total_de_tentativas = 20
-    elif(nivel == 2):
+    elif (nivel == 2):
         total_de_tentativas = 10
     else:
         total_de_tentativas = 5
@@ -25,24 +26,26 @@ def jogar():
         print("Tentativa {} de {} ".format(rodada, total_de_tentativas))
         chute = int(input("Digite um número entre 1 e 100: "))
 
-        if(chute < 1 or chute > 100):
+        if (chute < 1 or chute > 100):
             print("Você deve digitar um número entre 1 e 100!")
             continue
 
         acertou = chute == numero_secreto
-        maior   = chute > numero_secreto
-        menor   = chute < numero_secreto
+        maior = chute > numero_secreto
+        menor = chute < numero_secreto
 
-        if(acertou):
+        if (acertou):
             print("Você acertou e fez {} pontos!".format(pontos))
             break
         else:
-            if(maior):
+            if (maior):
                 print("Você errou! O seu chute foi maior que o número secreto ")
-            elif(menor):
+            elif (menor):
                 print("Você errou! O seu chute foi menor que o número secreto ")
             pontos_perdidos = abs(numero_secreto - chute)
             pontos = pontos - pontos_perdidos
 
-
     print("Fim do jogo!")
+
+if(__name__ == "__main__"):
+    jogar()
